@@ -1,15 +1,15 @@
 #!usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# ======================================================
-# =   CASINO ROULETTE                                  =
-# =      - Version   : 1.0                             =
-# =      - Author    : Ayckinn                         =
-# =      - Mail      : ayckinn@pm.me                   =
-# =      - Release   : March 11' 2024                  =
-# =      - Github    : https://github.com/AyckinnLisa  =
-# =      - Copyright : ©2020-2024                      =
-# ======================================================
+# =======================================================================
+# =   CASINO ROULETTE                                                   =
+# =      - Version   : 1.0                                              =
+# =      - Author    : Ayckinn                                          =
+# =      - Mail      : ayckinn@icloud.com                               =
+# =      - Release   : March 11' 2024                                   =
+# =      - Github    : https://github.com/AyckinnLisa?tab=repositories  =
+# =      - Copyright : ©2020-2024                                       =
+# =======================================================================
 
 import os, time, random
 
@@ -25,13 +25,13 @@ def main():
 
     try:
         print(ctx.green(''' 
- # ==================================== #
- # =          CASINO ROULETTE         = #
- # =               v1.0               = #
- # =       ©2020-2024 - @Ayckinn      = #
- # =           ayckinn@pm.me          = #
- # =  https://github.com/AyckinnLisa  = #
- # ==================================== #\n'''))
+ # ===================================================== #
+ # =                  CASINO ROULETTE                  = #
+ # =                        v1.0                       = #
+ # =                ©2020-2024 - @Ayckinn              = #
+ # =                 ayckinn@icloud.com                = #
+ # =  https://github.com/AyckinnLisa?tab=repositories  = #
+ # ===================================================== #\n'''))
         player = input(" Quel est ton nom ? ")
 
         if os.path.exists(gf.money_file(player)):

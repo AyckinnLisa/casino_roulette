@@ -19,7 +19,7 @@ import gamefuncs as gf
 
 def main():
     user_bet = 0
-    user_nb = 0
+    user_nb = "-"
     roll_list = []
     roll = ""    
 
@@ -101,6 +101,7 @@ def main():
                     try:
                         roll = random.randrange(37)
                         user_nb = int(input("\n Choisis un numéro entre 0 et 36 : "))
+                        gf.player_money(user_money, user_bet, user_nb, roll_list, roll)
 
                         if user_nb > 36:
                             print(ctx.red("\n ERREUR ! Le numéro ne doit pas dépasser 36."))

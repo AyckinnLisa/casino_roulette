@@ -11,7 +11,7 @@ Rules :
 ## Screenshot
 <div align="center">
     <img
-        src="https://github.com/AyckinnLisa/blob/main/casino_roulette/screenshot.png"
+        src="https://github.com/AyckinnLisa/casino_roulette/blob/main/screenshot.png"
         alt="DEMO"
         style="width:40%">
 </div>

@@ -13,7 +13,7 @@ Rules :
     <img
         src="https://github.com/AyckinnLisa/casino_roulette/blob/main/screenshot.png"
         alt="DEMO"
-        style="width:40%">
+        style="width:50%">
 </div>
 
 ---
